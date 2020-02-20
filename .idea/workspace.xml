@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="552c4a6e-1372-4cc5-9140-ee398a2f57b9" name="Default Changelist" comment="" />
+    <list default="true" id="552c4a6e-1372-4cc5-9140-ee398a2f57b9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/bdd/Driver/DriverFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/bdd/Hooks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/bdd/RuncukeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/bdd/SmokeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/bdd/Step_Definitions/SearchSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/bdd/pages/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/bdd/pages/ResultPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/bdd/pages/TrolleyPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/bdd/utils/Helpers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/bdd/runner/Runcuke.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/bdd/stepdefinitions/StepDefinitions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resouces/searches.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resouces/searches.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/bdd/runner/Runcuke.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/bdd/stepdefinitions/StepDefinitions.class" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +35,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -26,10 +46,18 @@
     </option>
   </component>
   <component name="ProjectId" id="1XxvHrbMbBJmfOkGzxV86N2gmjf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.bdd.pages" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -43,15 +71,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber java.Scenario: Search for single product (1)">
-    <configuration name="Feature: search" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.RuncukeTest">
+    <configuration name="Feature: Search" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resouces/search.feature" />
-      <option name="GLUE" value="com.bdd.stepdefinitions" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/com/bdd/resources/Search.feature" />
+      <option name="GLUE" value="com.bdd" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="bddproject" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
-      <option name="SUGGESTED_NAME" value="Feature: search" />
+      <option name="SUGGESTED_NAME" value="Feature: Search" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
@@ -98,28 +126,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Search for single product (2)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Search for single product (3)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/com/bdd/feature/Search.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/com/bdd/resources/Search.feature" />
       <option name="GLUE" value="com.bdd.stepdefinitions" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="bddproject" />
-      <option name="NAME_FILTER" value="^Search for single product$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Search for single product$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Search for single product" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: Search for single product" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resouces/search.feature" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="bddproject" />
       <option name="NAME_FILTER" value="^Search for single product$" />
@@ -150,12 +160,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RuncukeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bddproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bdd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bdd" />
+      <option name="MAIN_CLASS_NAME" value="com.bdd.RuncukeTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SmokeTest.searchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bddproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bdd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bdd" />
+      <option name="MAIN_CLASS_NAME" value="com.bdd.SmokeTest" />
+      <option name="METHOD_NAME" value="searchTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RuncukeTest" />
         <item itemvalue="Cucumber java.Scenario: Search for single product (1)" />
-        <item itemvalue="Cucumber java.Scenario: Search for single product (2)" />
-        <item itemvalue="Cucumber java.Scenario: Search for single product" />
-        <item itemvalue="Cucumber java.Feature: search" />
+        <item itemvalue="Cucumber java.Scenario: Search for single product (3)" />
+        <item itemvalue="Cucumber java.Feature: Search" />
+        <item itemvalue="JUnit.SmokeTest.searchTest" />
       </list>
     </recent_temporary>
   </component>
@@ -171,6 +213,19 @@
       <updated>1582000475839</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/bddproject$Runcuke.ic" NAME="Runcuke Coverage Results" MODIFIED="1582005117877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

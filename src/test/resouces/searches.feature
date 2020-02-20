@@ -1,9 +1,20 @@
+@search
 Feature: Search
-  As a end user
+  As an end user
   I want to search for product
-  So that I can see desired product
+  So that i can view product i wish
 
+  @smoke
   Scenario: Search for single product
-    Given Im on homepage
+    Given I am on homepage
     When I search for product "nike"
-    Then I should able to see the nike product
+    Then I should be able to see nike product
+    @Regression
+    Scenario Outline: Search multi product
+      Given I am on homepage
+      When I search for product "<searchItem>"
+      Then I should be able to see nike product
+      Examples:
+        | searchItem |
+        | Puma       |
+        | adidas     |

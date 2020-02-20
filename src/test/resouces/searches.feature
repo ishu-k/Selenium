@@ -7,14 +7,17 @@ Feature: Search
   @smoke
   Scenario: Search for single product
     Given I am on homepage
-    When I search for product "nike"
+    When I search for product nike
     Then I should be able to see nike product
-    @Regression
-    Scenario Outline: Search multi product
-      Given I am on homepage
-      When I search for product "<searchItem>"
-      Then I should be able to see nike product
-      Examples:
-        | searchItem |
-        | Puma       |
-        | adidas     |
+
+  @regression
+  Scenario Outline: Search multi product
+    Given I am on homepage
+    When I search for product "<searchItem>"
+    Then I should be able to see "<searchItem>" product
+    Examples:
+      | searchItem |
+      | Puma       |
+      | adidas     |
+
+    

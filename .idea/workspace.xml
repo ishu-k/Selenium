@@ -1,23 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="552c4a6e-1372-4cc5-9140-ee398a2f57b9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/bdd/Driver/DriverFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/bdd/Hooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/bdd/RuncukeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/bdd/SmokeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/bdd/Step_Definitions/SearchSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/bdd/pages/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/bdd/pages/ResultPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/bdd/pages/TrolleyPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/bdd/utils/Helpers.java" afterDir="false" />
+    <list default="true" id="552c4a6e-1372-4cc5-9140-ee398a2f57b9" name="Default Changelist" comment="scenario outline added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/bdd/runner/Runcuke.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/bdd/stepdefinitions/StepDefinitions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/bdd/Step_Definitions/SearchSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bdd/Step_Definitions/SearchSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resouces/searches.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resouces/searches.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/bdd/runner/Runcuke.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/bdd/stepdefinitions/StepDefinitions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/bdd/Step_Definitions/SearchSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/bdd/Step_Definitions/SearchSteps.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +59,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RuncukeTest">
+  <component name="RunManager" selected="Cucumber java.Feature: searches">
     <configuration name="Feature: Search" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/com/bdd/resources/Search.feature" />
@@ -217,6 +205,31 @@
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:C:/Users/ishuk/IdeaProjects/bddproject/src/test/resouces" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State>
@@ -226,10 +239,37 @@
         </entry>
       </map>
     </option>
+    <option name="OPEN_TABS">
+      <set>
+        <option value="1" />
+      </set>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/master" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="scenario outline added" />
+    <option name="LAST_COMMIT_MESSAGE" value="scenario outline added" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/bddproject$Runcuke.ic" NAME="Runcuke Coverage Results" MODIFIED="1582005117877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.bdd.runner.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/bddproject$Feature__searches.ic" NAME="Feature: searches Coverage Results" MODIFIED="1582212034908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>cucumber.api.cli.*</FILTER>
     </SUITE>
   </component>
 </project>

@@ -2,6 +2,7 @@ package com.bdd;
 
 import com.bdd.Driver.DriverFactory;
 import com.bdd.pages.HomePage;
+import com.bdd.pages.ProductDescriptionPage;
 import com.bdd.pages.ResultPage;
 import com.bdd.pages.TrolleyPage;
 import org.junit.Test;
@@ -18,6 +19,7 @@ import static org.hamcrest.Matchers.*;
         ResultPage resultsPage = new ResultPage();
         TrolleyPage trolleyPage= new TrolleyPage();
         DriverFactory factory=new DriverFactory();
+        ProductDescriptionPage descriptionPage=new ProductDescriptionPage();
 
         @Test
         public void searchTest() throws InterruptedException {
@@ -44,6 +46,34 @@ import static org.hamcrest.Matchers.*;
             String actual = trolleyPage.getProductInTrolley();
             System.out.println(actual);
             assertThat(actual,equalTo(selectedProductName));
+        }
+
+        @Test
+        public void challengeTask() throws InterruptedException {
+            homePage.doSearch("nike");
+            String allProducts=resultsPage.selectAnyProduct();
+            trolleyPage.addToTrolley();
+            Thread.sleep(4000);
+            trolleyPage.goToTrolley();
+            Thread.sleep(4000);
+            // descriptionPage.priceCheckSingle();
+            descriptionPage.selectDropDown(1);
+            Thread.sleep(5000);
+            descriptionPage.priceCheckSingle();
+            resultsPage.totalPrice();
+        }
+        @Test
+        public void challengeTask2() throws InterruptedException {
+            homePage.doSearch("puma");
+            String allProducts=resultsPage.selectAnyProduct();
+            trolleyPage.addToTrolley();
+            trolleyPage.continueShopping();
+            homePage.doSearch("adidas");
+            String onemore=resultsPage.selectAnyProduct();
+            trolleyPage.addToTrolley();
+            trolleyPage.goToTrolley();
+            resultsPage.numberofProductsInBasket();
+
         }
     }
 

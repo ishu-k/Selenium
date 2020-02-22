@@ -6,12 +6,9 @@ import com.bdd.pages.ProductDescriptionPage;
 import com.bdd.pages.ResultPage;
 import com.bdd.pages.TrolleyPage;
 import org.junit.Test;
-
 import java.util.List;
-
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.*;
-
 
     public class SmokeTest  {
 

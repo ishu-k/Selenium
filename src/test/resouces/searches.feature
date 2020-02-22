@@ -19,12 +19,4 @@ Feature: Search
       | searchItem |
       | Puma       |
       | adidas     |
-    Scenario: Add to basket
-      Given
-      When
-      Then
-
-      Scenario: Checkin 
-
-
     

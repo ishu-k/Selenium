@@ -8,7 +8,6 @@ import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.equalTo;
 
@@ -20,7 +19,6 @@ public class Basketsteps {
     @Given("^i search for a product nike$")
     public void i_search_for_a_product_nike() {
         homePage.doSearch("nike");
-
     }
 
     @When("^i collect all the nike products in to the list and randomly select a product$")
@@ -42,13 +40,7 @@ public class Basketsteps {
         double expected= descriptionPage.priceCheckSingle();
         double actual= resultsPage.totalPrice();
         assertThat(actual,equalTo(expected));
-        
-
+       
     }
-
-
-
-
-
 
 }

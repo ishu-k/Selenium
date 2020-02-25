@@ -20,27 +20,19 @@ public class FilterSteps {
         String actual = homePage.getCurrentUrl();
         assertThat(actual, endsWith("co.uk/"));
     }
-
-
     @When("^I search for a product \"([^\"]*)\"$")
     public void i_search_for_a_product(String searchTerm)  {
         homePage.doSearch(searchTerm);
     }
 
-
     @And("^I apply filter review \"([^\"]*)\"$")
     public void iApplyFilterReview(String filter) {
         resultsPage.selectFilter(filter);
-
     }
-
     @Then("^I should be able to see product rating \"([^\"]*)\"$")
     public void iShouldBeAbleToSeeProductRating(Double expected) {
         List<Double> actual = resultsPage.getProductRating();
         assertThat(actual, everyItem(is(greaterThanOrEqualTo(expected))));
-
     }
-
-
 }
 

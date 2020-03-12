@@ -57,7 +57,6 @@
       <artifactId>cucumber-java</artifactId>
       <version>${cucumber.jvm}</version>
     </dependency>
-    <!-- https://mvnrepository.com/artifact/info.cukes/cucumber-junit -->
     <dependency>
       <groupId>info.cukes</groupId>
       <artifactId>cucumber-junit</artifactId>

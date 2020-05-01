@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="64c7a321-f2b5-472d-a40e-6bd4f5639bb5" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1b50xz3enNYvYxgHyBx2jxpREqp" />
+  <component name="PropertiesComponent">
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.Jsonplaceholder.post">
+    <configuration name="Jsonplaceholder.post" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="APIprac2020" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.regres.in.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.regres.in" />
+      <option name="MAIN_CLASS_NAME" value="org.regres.in.Jsonplaceholder" />
+      <option name="METHOD_NAME" value="post" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Regresin.createuser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="APIprac2020" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.regres.in.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.regres.in" />
+      <option name="MAIN_CLASS_NAME" value="org.regres.in.Regresin" />
+      <option name="METHOD_NAME" value="createuser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Regresin.deleteuser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="APIprac2020" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.regres.in.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.regres.in" />
+      <option name="MAIN_CLASS_NAME" value="org.regres.in.Regresin" />
+      <option name="METHOD_NAME" value="deleteuser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Regresin.listeners" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="APIprac2020" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.regres.in.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.regres.in" />
+      <option name="MAIN_CLASS_NAME" value="org.regres.in.Regresin" />
+      <option name="METHOD_NAME" value="listeners" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Regresin.listeners1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="APIprac2020" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.regres.in.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.regres.in" />
+      <option name="MAIN_CLASS_NAME" value="org.regres.in.Regresin" />
+      <option name="METHOD_NAME" value="listeners1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.Jsonplaceholder.post" />
+        <item itemvalue="JUnit.Regresin.listeners" />
+        <item itemvalue="JUnit.Regresin.createuser" />
+        <item itemvalue="JUnit.Regresin.deleteuser" />
+        <item itemvalue="JUnit.Regresin.listeners1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="64c7a321-f2b5-472d-a40e-6bd4f5639bb5" name="Default Changelist" comment="" />
+      <created>1587906898030</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587906898030</updated>
+    </task>
+    <servers />
+  </component>
+</project>
